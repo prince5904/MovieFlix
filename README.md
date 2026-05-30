@@ -1,38 +1,124 @@
-# Netflix Clone React.js
+# MovieFlix
 
 ## Overview
-This project is a Netflix clone built using React.js, designed to enhance skills in web development. It features a fully interactive user interface with various functionalities, making it a comprehensive movie-watching experience. The project is powered by TMDB API, utilizing Firebase for database management.
+
+MovieFlix is a Netflix-inspired movie streaming web application built with React.js, Firebase, and TMDB API. The platform allows users to discover trending movies, search for content, manage personal watchlists, and watch trailers through a modern and responsive user interface.
+
+This project was created to improve frontend development skills and gain practical experience with React, API integration, Firebase authentication, and modern UI development.
+
+---
 
 ## Screenshots
 
-![PC screen](https://i.imgur.com/FLNs9Qy.jpg)
+### Desktop View
 
+![Desktop View](https://i.imgur.com/FLNs9Qy.jpg)
 
+### Mobile View
 
-### mobile experience 
-![mobile screens](https://i.imgur.com/ForTeQi.jpg)
- 
-## Key Functionalities
-- Sign In / Sign Up
-- Home Page for browsing movies
-- My List Section for user-specific movie selections
-- Liked Movies Page
-- Watched Movies Page
-- Profile Page
-- Play Movie Page
-- Search Movie Page
+![Mobile View](https://i.imgur.com/ForTeQi.jpg)
+
+---
+
+## Features
+
+* User Authentication (Sign In / Sign Up)
+* Browse Trending Movies
+* Search Movies and TV Shows
+* Watch Movie Trailers
+* My List Management
+* Liked Movies Collection
+* Watched Movies History
+* User Profile Page
+* Responsive Design
+* TMDB API Integration
+
+---
 
 ## Technologies Used
-- [React.js](https://react.dev/)
-- [TMDB API](https://www.themoviedb.org/)
-- [Firebase](https://firebase.google.com/)
-- [Axios](https://www.npmjs.com/package/axios)
-- [Swiper.js](https://swiperjs.com/)
-- [React-Youtube](https://www.npmjs.com/package/react-youtube)
-- [Tailwind CSS](https://tailwindcss.com/)
 
-## Description
-This Netflix clone project was developed to deepen understanding and proficiency in React.js. Leveraging popular technologies and APIs like TMDB and Firebase, it encompasses a range of features, from user authentication to dynamic movie listings. The design is tailored to provide an immersive streaming experience, and the codebase reflects best practices in modern web development.
+* React.js
+* Firebase
+* TMDB API
+* Axios
+* Swiper.js
+* React YouTube
+* Tailwind CSS
+* React Router DOM
+* Vite
 
-## Link to the Site
-[Netflix Clone](https://movieflix-reactjs.vercel.app/)
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/prince5904/MovieFlix
+```
+
+Navigate to the project folder:
+
+```bash
+cd MovieFlix
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Project Structure
+
+```text
+src/
+├── Assets
+├── Components
+├── Constants
+├── CustomHooks
+├── Pages
+├── Firebase
+└── App.jsx
+```
+
+---
+
+## Future Improvements
+
+* Dark / Light Theme
+* Personalized Recommendations
+* Movie Rating System
+* Advanced Search Filters
+* User Profile Customization
+* Improved Performance Optimization
+
+---
+
+## Live Demo
+
+Coming Soon
+
+(Deploy on Vercel or Netlify and add your own URL here.)
+
+---
+
+## Author
+
+Prince Pathak
+
+GitHub: https://github.com/prince5904
+
+---
+
+## Disclaimer
+
+This project is created for educational and portfolio purposes only. Movie information and images are provided by TMDB API. All trademarks, logos, and copyrights belong to their respective owners.
